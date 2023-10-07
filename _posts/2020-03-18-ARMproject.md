@@ -2,8 +2,8 @@
 layout: post
 title:  "Automatic Onsite Polishing"
 date:   2020-03-18 18:08:39 +00:00
-image: /images/arm_polishing.gif
-categories: Research
+image: /images/ARM_Polishing/arm_polishing.gif
+categories: research
 author: "Ruixuan Liu"
 location: "Mill 19, Pittsburgh, PA"
 ---
