@@ -7,6 +7,7 @@ categories: research
 author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>, Weiye Zhao, Suqin He, Changliu Liu"
 location: "Mill 19, Pittsburgh, PA"
+venue: "ARM Institute"
 website: https://waynekyrie.github.io/arm-polishing/
 youtube: https://youtu.be/DP9TUkI8tQg?si=WSw2SZFnq5oIZczj
 ---
