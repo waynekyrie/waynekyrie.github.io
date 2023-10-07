@@ -8,7 +8,6 @@ author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>, Weiye Zhao, Suqin He, Changliu Liu"
 location: "Mill 19, Pittsburgh, PA"
 venue: "ARM Institute"
-permalink: /research/ARMproject.html
 website: https://waynekyrie.github.io/research/ARMproject.html
 youtube: https://youtu.be/DP9TUkI8tQg?si=WSw2SZFnq5oIZczj
 ---
