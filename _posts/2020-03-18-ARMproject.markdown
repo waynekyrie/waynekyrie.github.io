@@ -2,7 +2,7 @@
 layout: post
 title:  "Automatic Onsite Polishing"
 date:   2020-03-18 18:08:39 +00:00
-image: /images/environment_setup_caption.jpg
+image: /images/arm_polishing.gif
 categories: research
 author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>, Weiye Zhao, Suqin He, Changliu Liu"
