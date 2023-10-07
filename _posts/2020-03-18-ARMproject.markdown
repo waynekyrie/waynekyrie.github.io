@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Automatic Onsite Polishing"
 date:   2020-03-18 18:08:39 +00:00
 image: /images/arm_polishing.gif
