@@ -87,6 +87,16 @@
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
+              {% if post.sponsor %}
+              <br>
+              <em>{{post.venue}}</em>
+              <br>
+              {% endif %}
+              {% if post.collaborator %}
+              <br>
+              <em>{{post.venue}}</em>
+              <br>
+              {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
               {% endif %}
