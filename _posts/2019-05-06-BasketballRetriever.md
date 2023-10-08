@@ -6,8 +6,7 @@ image: /images/capstone.jpg
 categories: project
 author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>, Alvin Shi, Roy Li"
-course: "ECE Capstone: 18-500
-location: "Novi, MI"
+course: "ECE Capstone: 18-500"
 youtube: https://youtu.be/n8TYA04VexE?si=4HhwcwtL163VTiLC
 ---
 
