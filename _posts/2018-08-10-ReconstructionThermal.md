@@ -10,4 +10,4 @@ website: https://henryzh47.github.io/Reconstruction-Sensor-Pod/
 course: "Internship at the AirLab"
 ---
 
-This was a research project that I did during the internship in the AirLab led by [Prof. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). The goal for this project was to enable inspection from 3D reconstruction. 
+This was a research project that I did during the internship in the AirLab led by [Prof. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). The goal for this project was to enable building inspection from 3D reconstruction. We want to add thermal texture to the 3D reconstruction to make the inspection more reliable.
