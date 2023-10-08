@@ -84,18 +84,16 @@
               {% if post.venue %}
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
               {% endif %}
               {% if post.collaborator %}
               <br>
               <em>In collaboration with {{post.collaborator}}</em>
-              <br>
               {% endif %}
               {% if post.sponsor %}
               <br>
               <em>In part supported by {{post.sponsor}}</em>
-              <br>
               {% endif %}
+              <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
@@ -112,7 +110,7 @@
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
               {% if post.website %}
-              <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.url}}, {{ post.date | date: "%Y" }}</a> /
+              <a href="{{post.website}}">website</a> /
               {% endif %}
               {% if post.youtube %}
               <a href="{{post.youtube}}">youtube</a> /
