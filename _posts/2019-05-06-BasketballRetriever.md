@@ -11,10 +11,9 @@ location: "Novi, MI"
 youtube: https://youtu.be/n8TYA04VexE?si=4HhwcwtL163VTiLC
 ---
 
-This was an intern project during my internship at Zenuity in the summer of 2019. 
-The team was trying to build a mobile robot that can manuever in the office automatically. 
-There were many modules to implement, including path planning, motion control, safety, etc. 
-I was working on the Lidar perception module. 
-The goal was to use the Lidar to detect the obstacles and generate the free area that was traversable for the robot.
-
-Tamal Mukherjee
+This was the capstone project I did during my undergrad. 
+The idea was to build a collaborative mobile robot that helps the basketball player during practice. 
+When a player is practicing shooting, the ball would bounce to random places if missed the shot. 
+It is sometimes frustrating and time-consuming to get the ball back.
+Therefore, in this project we intend to build a mobile robot that can retrieve the ball each time when it bounces away.
+We would like to thank [Prof. Tamal Mukherjee](https://www.ece.cmu.edu/directory/bios/mukherjee-tamal.html) for his guidance and support.
