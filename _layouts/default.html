@@ -185,37 +185,40 @@
           {% for cat in post.categories %}
           {% if cat != 'research' and cat != 'Intel' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:400px">
               <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{post.authors}}
 
+              {% if post.venue %}
               <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              {% if post.award %}
+              <br>
+              <h3>{{post.award}}</h3>
               {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
+              {% if post.collaborator %}
+              <br>
+              In collaboration with <em>{{post.collaborator}}</em>
               {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
+              {% if post.sponsor %}
+              <br>
+              In part supported by <em>{{post.sponsor}}</em>
               {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
+              {% if post.course %}
+              <br>
+              <em>{{post.course}}</em>
+              {% endif %}
+              <br>
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">paper</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
@@ -225,6 +228,15 @@
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+              {% if post.news %}
+              <a href="{{post.news}}">news</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
