@@ -105,13 +105,17 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               {% endif %}
+              {% if post.award %}
+              <br>
+              <em>{{post.award}}</em>
+              {% endif %}
               {% if post.collaborator %}
               <br>
-              <em>In collaboration with {{post.collaborator}}</em>
+              In collaboration with <em>{{post.collaborator}}</em>
               {% endif %}
               {% if post.sponsor %}
               <br>
-              <em>In part supported by {{post.sponsor}}</em>
+              In part supported by <em>{{post.sponsor}}</em>
               {% endif %}
               <br>
               {% if post.arxiv %}
