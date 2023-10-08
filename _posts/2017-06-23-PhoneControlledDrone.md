@@ -7,7 +7,7 @@ categories: project
 author: "Ruixuan Liu"
 authors: "Chris Yin, <strong>Ruixuan Liu</strong>"
 youtube: https://youtu.be/5MQbwDau5tc?si=8WGx64qS0dw4gyiU
-course: "Internship"
+course: "Internship at HIT"
 ---
 
 This was a project that I did during the internship in the lab led by [Prof. Xiaorui Zhu](https://scholar.google.com/citations?user=S11Nv9EAAAAJ&hl=en).
