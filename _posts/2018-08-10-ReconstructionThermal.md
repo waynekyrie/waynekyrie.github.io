@@ -7,6 +7,7 @@ categories: project
 author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>, Henry Zhang, Yaoyu Hu"
 website: https://henryzh47.github.io/Reconstruction-Sensor-Pod/
+course: "Internship at the AirLab"
 ---
 
 This was a research project that I did during the internship in the AirLab led by [Prof. Sebastian Scherer](https://www.ri.cmu.edu/ri-faculty/sebastian-scherer/). The goal for this project was to enable inspection from 3D reconstruction. 

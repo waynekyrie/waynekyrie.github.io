@@ -8,6 +8,7 @@ author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>"
 location: "Novi, MI"
 youtube: https://youtu.be/GwfVTA1slqs
+course: "Internship at Zenuity"
 ---
 
 This was an intern project during my internship at Zenuity in the summer of 2019. 
