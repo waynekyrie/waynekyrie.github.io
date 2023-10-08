@@ -81,21 +81,23 @@
               <br>
               {{post.authors}}
 
+              {% if post.venue %}
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
               {% if post.sponsor %}
               <br>
-              <em>{{post.venue}}</em>
+              <em>Supported by {{post.sponsor}}</em>
               <br>
               {% endif %}
               {% if post.collaborator %}
               <br>
-              <em>{{post.venue}}</em>
+              <em>In collaboration with {{post.collaborator}}</em>
               <br>
+              {% endif %}
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
