@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Lightweight and Transferable Design for Robust LEGO Manipulation"
-date:   2023-09-01 18:08:39 +00:00
+date:   2024-04-01 18:08:39 +00:00
 image: /images/lego_manipulation.gif
 categories: research
 author: "Ruixuan Liu"
