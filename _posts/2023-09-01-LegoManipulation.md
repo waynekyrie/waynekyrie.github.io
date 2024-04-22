@@ -9,6 +9,7 @@ authors: "<strong>Ruixuan Liu</strong>, Yifan Sun, Changliu Liu"
 location: "Pittsburgh, PA"
 sponsor: "Siemens, CMU MFI"
 arxiv: https://arxiv.org/abs/2309.02354
+venue: "International Symposium on Flexible Automation (ISFA)"
 youtube: https://youtu.be/CqrBryAGsd0?si=NVUXlkSiAWh3c8Ud
 ---
 This paper investigates safe and efficient robotic LEGO manipulation. 

@@ -7,6 +7,7 @@ categories: project
 author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>, Henry Zhang, Sebastian Scherer"
 website: https://henryzh47.github.io/Thermal-Camera-Calibration/
+arxiv: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3v7sVbwAAAAJ&citation_for_view=3v7sVbwAAAAJ:0EnyYjriUFMC
 course: "Internship at the AirLab"
 ---
 
