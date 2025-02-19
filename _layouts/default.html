@@ -121,7 +121,9 @@
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
-
+              {% if post.equal_contribution}
+              <h3>*Equal Contributions</h3>
+              <br>
               {% if post.venue %}
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
@@ -162,6 +164,12 @@
               {% endif %}
               {% if post.news %}
               <a href="{{post.news}}">news</a> /
+              {% endif %}
+              {% if post.page %}
+              <a href="{{post.page}}">website</a> /
+              {% endif %}
+              {% if post.twitter %}
+              <a href="{{post.twitter}}">X</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}
