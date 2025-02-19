@@ -5,7 +5,7 @@ date:   2025-01-31 10:08:39 +00:00
 image: /images/robustify_hrc.gif
 categories: research
 author: "Ruixuan Liu"
-authors: "Peiqi Yu*, Abulikemu Abuduweili*, <strong>Ruixuan Liu*</strong>, Changliu Liu"
+authors: "Peiqi Yu*, Abulikemu Abuduweili*, <strong>Ruixuan Liu</strong>, Changliu Liu"
 location: "Pittsburgh, PA"
 video: https://www.youtube.com/watch?v=2kkANN9ueVY
 arxiv: https://arxiv.org/abs/2411.15711
