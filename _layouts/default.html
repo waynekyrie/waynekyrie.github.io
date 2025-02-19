@@ -123,8 +123,8 @@
               {{post.authors}}
               
               {% if post.equalcontribution %}
-              <h3>Equal Contributions</h3>
               <br>
+              <h3>*Equal Contributions</h3>
               {% endif %}
 
               {% if post.venue %}
@@ -145,31 +145,28 @@
               {% endif %}
               <br>
               {% if post.arxiv %}
-              <a href="{{post.arxiv}}">paper</a> /
+              <a href="{{post.arxiv}}">Paper</a> /
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              <a href="{{post.video}}">Video</a> /
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              <a href="{{post.code}}">Code</a> /
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a href="{{post.poster}}">Poster</a> /
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{post.slides}}">Slides</a> /
               {% endif %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a href="{{post.website}}">Project Website</a> /
               {% endif %}
               {% if post.youtube %}
               <a href="{{post.youtube}}">youtube</a> /
               {% endif %}
               {% if post.news %}
               <a href="{{post.news}}">news</a> /
-              {% endif %}
-              {% if post.page %}
-              <a href="{{post.page}}">website</a> /
               {% endif %}
               {% if post.twitter %}
               <a href="{{post.twitter}}">X</a> /
