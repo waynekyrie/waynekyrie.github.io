@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Physics-Aware Combinatorial Assembly Sequence Planning using Data-free Action Masking"
-date:   2024-03-16 18:08:39 +00:00
+date:   2025-03-16 18:08:39 +00:00
 image: /images/PAasp.gif
 categories: research
 author: "Ruixuan Liu"
