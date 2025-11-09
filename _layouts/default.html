@@ -116,16 +116,10 @@
                 {% if post.highlight == true and highlight_count < 4 %}
                   <div class="slide">
                     <h1 class="slide-number">
-                      <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-                      <section class="post-excerpt" itemprop="description">
-                        <p>{{ post.brief }}</p>
-                      </section>
+                      <h4>{{ post.title }}</h4>
                       {% if post.hasimage == true %}
                         <img src="{{ post.image }}" style="float:middle;width:80%;">
                       {% endif %}
-                      <section class="post-meta">
-                        <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
-                      </section>
                     </h1>
                   </div>
                   {% assign highlight_count = highlight_count | plus: 1 %}
@@ -140,7 +134,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Highlights</h2>
+              <h2>News</h2>
               <ul>
                 <li><h3>2025/10</h3> BrickGPT won the <h3>Best Paper Award (Marr Prize)</h3> at ICCV 2025! [<a href="http://icontrol.ri.cmu.edu/news/iccv25.html">News</a>] [<a href="https://x.com/ICCVConference/status/1980704802691858682">X</a>]</li>
                 <li><h3>2025/09</h3> Finished internship as an Applied Scientist at Amazon Robotics.</li>
