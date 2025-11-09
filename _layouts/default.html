@@ -56,7 +56,7 @@
           </tr>
         </table>
 
-        <h2>News</h2>
+        <h2>Highlights</h2>
           <style>
           #slideshow {
             overflow: hidden;
@@ -117,9 +117,15 @@
                   <div class="slide">
                     <h1 class="slide-number">
                       <h4>{{ post.title }}</h4>
+                      <section class="post-excerpt" itemprop="description">
+                        <p>{{ post.brief }}</p>
+                      </section>
                       {% if post.hasimage == true %}
                         <img src="{{ post.image }}" style="float:middle;width:80%;">
                       {% endif %}
+                      <section class="post-meta">
+                        <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
+                      </section>
                     </h1>
                   </div>
                   {% assign highlight_count = highlight_count | plus: 1 %}
