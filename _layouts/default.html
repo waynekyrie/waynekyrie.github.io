@@ -116,7 +116,7 @@
                 {% if post.highlight == true and highlight_count < 4 %}
                   <div class="slide">
                       <h4>{{ post.highlightbrief }}</h4>
-                      <img src="{{ post.highlightimage }}" style="float:middle;width:100%;">
+                      <img src="{{ post.highlightimage }}" style="float:middle;width:10%;">
                   </div>
                   {% assign highlight_count = highlight_count | plus: 1 %}
                 {% endif %}
