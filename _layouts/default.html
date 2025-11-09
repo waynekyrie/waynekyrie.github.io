@@ -56,6 +56,87 @@
           </tr>
         </table>
 
+        <h1>Highlights</h1>
+          <style>
+          #slideshow {
+            overflow: hidden;
+            height: auto;
+            width: 100%;
+            max-width: 750px;
+            margin: 0 auto;
+          }
+          
+          .slide {
+            float: left;
+            height: auto;
+            width: 100%;
+          }
+          
+          .slide-wrapper {
+            display: flex;
+            width: calc(100% * 4);
+            animation: slide 20s ease infinite;
+          }
+          
+          @keyframes slide {
+            0% {
+              margin-left: 0;
+            }
+            25% {
+              margin-left: -100%;
+            }
+            50% {
+              margin-left: -200%;
+            }
+              75% {
+              margin-left: -300%;
+            }
+              100% {
+              margin-left: 0;
+            }
+          }
+
+          /* Media query for smaller screens */
+          @media (max-width: 600px) {
+            #slideshow {
+              max-width: 100%;
+            }
+            .slide {
+              width: 100%;
+            }
+          }
+          </style>
+
+          
+          <!-- Define the slideshow container -->
+          <div id="slideshow">
+            <div class="slide-wrapper">
+              {% assign highlight_count = 0 %}
+              {% for post in site.posts %}
+                {% if post.highlight == true and highlight_count < 4 %}
+                  <div class="slide">
+                    <h1 class="slide-number">
+                      <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                      <section class="post-excerpt" itemprop="description">
+                        <p>{{ post.brief }}</p>
+                      </section>
+                      {% if post.hasimage == true %}
+                        <img src="{{ post.image }}" style="float:middle;width:80%;">
+                      {% endif %}
+                      <section class="post-meta">
+                        <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
+                      </section>
+                    </h1>
+                  </div>
+                  {% assign highlight_count = highlight_count | plus: 1 %}
+                {% endif %}
+                {% if highlight_count == 4 %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
