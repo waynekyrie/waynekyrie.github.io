@@ -81,7 +81,7 @@
           
           .slide-wrapper {
             display: flex;
-            width: calc(100% * 4);
+            width: calc(100% * 2);
             animation: slide 20s ease infinite;
           }
           
@@ -120,14 +120,14 @@
             <div class="slide-wrapper">
               {% assign highlight_count = 0 %}
               {% for post in site.posts %}
-                {% if post.highlight == true and highlight_count < 4 %}
+                {% if post.highlight == true and highlight_count < 2 %}
                   <div class="slide">
                       <h4>{{ post.highlightbrief }}</h4>
                       <img src="{{ post.highlightimage }}" style="float:middle;width:10%;">
                   </div>
                   {% assign highlight_count = highlight_count | plus: 1 %}
                 {% endif %}
-                {% if highlight_count == 4 %}
+                {% if highlight_count == 2 %}
                   {% break %}
                 {% endif %}
               {% endfor %}
