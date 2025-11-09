@@ -116,13 +116,11 @@
                 {% if post.highlight == true and highlight_count < 4 %}
                   <div class="slide">
                     <h1 class="slide-number">
-                      <h4>{{ post.title }}</h4>
+                      <h4>{{ post.highlighttitle }}</h4>
                       <section class="post-excerpt" itemprop="description">
                         <p>{{ post.title }}</p>
                       </section>
-                      {% if post.hasimage == true %}
-                        <img src="{{ post.highlightimage }}" style="float:middle;width:80%;">
-                      {% endif %}
+                      <img src="{{ post.highlightimage }}" style="float:middle;width:80%;">
                       <section class="post-meta">
                         <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
                       </section>
