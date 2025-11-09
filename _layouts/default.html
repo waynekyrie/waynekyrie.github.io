@@ -121,7 +121,7 @@
                         <p>{{ post.title }}</p>
                       </section>
                       {% if post.hasimage == true %}
-                        <img src="{{ post.image }}" style="float:middle;width:80%;">
+                        <img src="{{ post.highlightimage }}" style="float:middle;width:80%;">
                       {% endif %}
                       <section class="post-meta">
                         <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
