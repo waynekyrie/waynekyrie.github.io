@@ -82,7 +82,7 @@
           .slide-wrapper {
             display: flex;
             width: calc(100% * 4);
-            animation: slide 10s ease infinite;
+            animation: slide 20s ease infinite;
           }
           
           @keyframes slide {
@@ -110,14 +110,14 @@
             <div class="slide-wrapper">
               {% assign highlight_count = 0 %}
               {% for post in site.posts %}
-                {% if post.highlight == true and highlight_count < 2 %}
+                {% if post.highlight == true and highlight_count < 4 %}
                   <div class="slide">
                       <h4>{{ post.highlightbrief }}</h4>
                       <img src="{{ post.highlightimage }}" style="float:middle;width:10%;">
                   </div>
                   {% assign highlight_count = highlight_count | plus: 1 %}
                 {% endif %}
-                {% if highlight_count == 2 %}
+                {% if highlight_count == 4 %}
                   {% break %}
                 {% endif %}
               {% endfor %}
