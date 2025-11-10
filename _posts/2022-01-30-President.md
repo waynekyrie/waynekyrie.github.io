@@ -6,5 +6,5 @@ author: "Ruixuan Liu"
 location: "Pittsburgh, PA"
 highlight: true
 highlightimage: /images/president.jpg
-highlightbrief: "Demonstrated our work on safe HRC with interactive industrial robots to the U.S. President at Mill 19, Pittsburgh."
+highlightbrief: "Demonstrated safe interactive industrial robots to the U.S. President."
 ---
