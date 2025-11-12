@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prompt-to-Product: Generative Assembly via Bimanual Manipulation"
-date:   2025-11-16 18:08:39 +00:00
+date:   2025-11-11 18:08:39 +00:00
 image: https://raw.githubusercontent.com/waynekyrie/website_assets/master/promt2product_teaser.gif
 categories: research
 author: "Ruixuan Liu"
