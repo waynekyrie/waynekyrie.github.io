@@ -2,7 +2,7 @@
 layout: post
 title:  "Prompt-to-Product: Generative Assembly via Bimanual Manipulation"
 date:   2025-11-11 18:08:39 +00:00
-image: /images/legogpt.gif
+image: https://raw.githubusercontent.com/waynekyrie/website_assets/master/promt2product_teaser.gif
 categories: research
 author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu*</strong>, Philip Huang*, Ava Pun, Kangle Deng, Shobhit Agarwal, Zhenran Tang, Michelle Liu, Deva Ramanan, Jun-Yan Zhu, Jiaoyang Li, Changliu Liu"
