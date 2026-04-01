@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prompt-to-Product: Generative Assembly via Bimanual Manipulation"
-date:   2025-11-11 18:08:39 +00:00
+date:   2026-03-31 18:08:39 +00:00
 image: https://raw.githubusercontent.com/waynekyrie/website_assets/master/promt2product_teaser.gif
 categories: research
 author: "Ruixuan Liu"
@@ -9,6 +9,7 @@ authors: "<strong>Ruixuan Liu*</strong>, Philip Huang*, Ava Pun, Kangle Deng, Sh
 equalcontribution: Yes
 location: "Pittsburgh, PA"
 sponsor: "CMU MFI"
+venue: "IEEE Robotics and Automation Magazine (RA-M)"
 website: http://icontrol.ri.cmu.edu/research/lego.html
 arxiv: https://arxiv.org/abs/2508.21063
 youtube: https://youtu.be/F1cG9U48noc?si=hh48E9TViM2EaTeO
