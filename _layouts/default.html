@@ -110,7 +110,7 @@
             <div class="slide-wrapper">
               {% assign highlight_count = 0 %}
               {% for post in site.posts %}
-                {% if post.highlight == true and highlight_count < 4 %}
+                {% if post.highlight == true and highlight_count < 3 %}
                   <div class="slide">
                       <h3>{{ post.highlightbrief }}</h3>
                       <img src="{{ post.highlightimage }}" style="display:block;margin:0 auto;width:100%;"">
