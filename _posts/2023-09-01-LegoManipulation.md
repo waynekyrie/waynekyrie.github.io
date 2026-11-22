@@ -7,12 +7,8 @@ categories: research
 author: "Ruixuan Liu"
 authors: "<strong>Ruixuan Liu</strong>, Yifan Sun, Changliu Liu"
 location: "Pittsburgh, PA"
-sponsor: "Siemens, CMU MFI"
 arxiv: https://arxiv.org/abs/2309.02354
 venue: "International Symposium on Flexible Automation (ISFA)"
 youtube: https://youtu.be/CqrBryAGsd0?si=NVUXlkSiAWh3c8Ud
 ---
-This paper investigates safe and efficient robotic LEGO manipulation. 
-In particular, this paper reduces the complexity of the manipulation by hardware-software co-design. 
-An end-of-arm tool (EOAT) is designed, which reduces the problem dimension and allows large industrial robots to easily manipulate LEGO bricks. 
-In addition, this paper uses evolution strategy to safely optimize the robot motion for LEGO manipulation.
+We make robotic LEGO manipulation safe and efficient through hardware-software co-design. A custom end-of-arm tool reduces the problem dimension so that large industrial robots can easily manipulate LEGO bricks, and evolution strategies safely optimize the robot's motion.

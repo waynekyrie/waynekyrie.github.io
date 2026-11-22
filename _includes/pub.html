@@ -1,0 +1,42 @@
+{% comment %}
+  Renders one research/project entry.
+  Usage: {% include pub.html post=post %}
+{% endcomment %}
+{% assign p = include.post %}
+<article class="pub{% if p.featured %} pub--featured{% endif %}">
+  <div class="pub__media">
+    <img src="{{ p.image }}" alt="{{ p.title | strip_html }}" loading="lazy">
+  </div>
+  <div class="pub__body">
+    <h3 class="pub__title">{{ p.title }}</h3>
+    {% if p.authors %}<p class="pub__authors">{{ p.authors }}</p>{% endif %}
+    {% if p.equalcontribution %}<p class="pub__note">*Equal contribution</p>{% endif %}
+
+    {% if p.venue or p.course %}
+    <p class="pub__venue">
+      {% if p.venue %}<em>{{ p.venue }}</em>, {{ p.date | date: "%Y" }}{% endif %}
+      {% if p.course %}<em>{{ p.course }}</em>{% endif %}
+    </p>
+    {% endif %}
+
+    {% if p.award %}<p class="pub__award">&#9733; {{ p.award }}</p>{% endif %}
+
+    {% if p.collaborator %}
+    <p class="pub__meta">In collaboration with <em>{{ p.collaborator }}</em></p>
+    {% endif %}
+
+    <div class="pub__links">
+      {% if p.arxiv %}<a href="{{ p.arxiv }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+      {% if p.website %}<a href="{{ p.website }}" target="_blank" rel="noopener">Website</a>{% endif %}
+      {% if p.code %}<a href="{{ p.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+      {% if p.video %}<a href="{{ p.video }}" target="_blank" rel="noopener">Video</a>{% endif %}
+      {% if p.youtube %}<a href="{{ p.youtube }}" target="_blank" rel="noopener">YouTube</a>{% endif %}
+      {% if p.poster %}<a href="{{ p.poster }}" target="_blank" rel="noopener">Poster</a>{% endif %}
+      {% if p.slides %}<a href="{{ p.slides }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+      {% if p.news %}<a href="{{ p.news }}" target="_blank" rel="noopener">News</a>{% endif %}
+      {% if p.twitter %}<a href="{{ p.twitter }}" target="_blank" rel="noopener">X</a>{% endif %}
+    </div>
+
+    <div class="pub__abstract">{{ p.excerpt }}</div>
+  </div>
+</article>

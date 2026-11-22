@@ -11,4 +11,4 @@ youtube: https://youtu.be/vTFdL37lyjo?si=rBwssm_BgmWVjtZt
 ---
 
 This was a course project for 16-720: Computer Vision. 
-The goal for this project was to build a pipeline that could robustly track a desired object in real-time. 
+The goal was to build a pipeline that robustly tracks a target object in real time. 

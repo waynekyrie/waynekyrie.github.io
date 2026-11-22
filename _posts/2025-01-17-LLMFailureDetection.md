@@ -7,10 +7,8 @@ categories: research
 author: "Ruixuan Liu"
 authors: "Hongyi Chen, Yunchao Yao, <strong>Ruixuan Liu</strong>, Changliu Liu, Jeffrey Ichnowski"
 location: "Pittsburgh, PA"
-sponsor: "CMU MFI"
 arxiv: https://arxiv.org/abs/2409.03966
 venue: "American Control Conference (ACC)"
 code: https://github.com/hychen-naza/Robot_ErrorRecovery_VLM.git
 ---
-This paper investigates how optimizing visual and text prompts can enhance the spatial reasoning of VLMs, enabling them to function effectively as black-box controllers for both motion-level position correction and task-level recovery from unknown failures. 
-Specifically, the optimizations include identifying key visual elements in visual prompts, highlighting these elements in text prompts for querying, and decomposing the reasoning process for failure detection and control generation. 
+We show that optimizing visual and text prompts improves the spatial reasoning of VLMs, enabling them to act as black-box controllers for motion-level correction and task-level recovery from unknown failures. Key visual elements are highlighted in both prompts, and reasoning is decomposed into failure detection and control generation.

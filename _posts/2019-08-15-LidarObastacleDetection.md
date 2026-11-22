@@ -11,8 +11,8 @@ youtube: https://youtu.be/GwfVTA1slqs
 course: "Internship at Zenuity"
 ---
 
-This was an intern project during my internship at Zenuity in the summer of 2019. 
-The team was trying to build a mobile robot that can manuever in the office automatically. 
-There were many modules to implement, including path planning, motion control, safety, etc. 
-I was working on the Lidar perception module. 
-The goal was to use the Lidar to detect the obstacles and generate the free area that was traversable for the robot.
+This was my project as an intern at Zenuity in the summer of 2019. 
+The team was building a mobile robot that could maneuver around the office autonomously. 
+The system included many modules, such as path planning, motion control, and safety. 
+I worked on the lidar perception module. 
+The goal was to use lidar to detect obstacles and compute the free space the robot could traverse.

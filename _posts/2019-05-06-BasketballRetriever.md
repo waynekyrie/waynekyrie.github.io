@@ -10,9 +10,9 @@ course: "ECE Capstone: 18-500"
 youtube: https://youtu.be/n8TYA04VexE?si=4HhwcwtL163VTiLC
 ---
 
-This was the capstone project I did during my undergrad. 
-The idea was to build a collaborative mobile robot that helps the basketball player during practice. 
-When a player is practicing shooting, the ball would bounce to random places if missed the shot. 
-It is sometimes frustrating and time-consuming to get the ball back.
-Therefore, in this project we intend to build a mobile robot that can retrieve the ball each time when it bounces away.
+This was my undergraduate capstone project. 
+The idea was to build a collaborative mobile robot that helps basketball players during practice. 
+When a player practices shooting, a missed shot can send the ball bouncing anywhere, 
+and retrieving it is frustrating and time-consuming.
+We built a mobile robot that retrieves the ball each time it bounces away.
 We would like to thank [Prof. Tamal Mukherjee](https://www.ece.cmu.edu/directory/bios/mukherjee-tamal.html) for his guidance and support.

@@ -9,12 +9,7 @@ authors: "<strong>Ruixuan Liu</strong>, Changliu Liu"
 location: "Pittsburgh, PA"
 website: http://icontrol.ri.cmu.edu/news/presentation-video-acc21.html
 youtube: https://youtu.be/r5TqRTU7lg4?si=d9S2MVVWfinhWyZr
-sponsor: "Ford"
 venue: "IEEE Control Systems Letters"
 arxiv: https://par.nsf.gov/servlets/purl/10250997
 ---
-
-This project focuses on predicting human arm motion for assembly tasks. In particular, online adaptation techniques are used to reduce prediction error due to model mismatch and data scarcity.
-In addition, a physical arm model is adopted to generate physically feasible motion prediction.
-
-
+We predict human arm motion during assembly tasks. Online adaptation of a recurrent neural network reduces the prediction error caused by model mismatch and scarce data, while an inverse-kinematics arm model keeps the predicted motion physically feasible.

@@ -10,7 +10,5 @@ location: "Mill 19, Pittsburgh, PA"
 collaborator: "Siemens, Yaskawa Motoman"
 website: https://arminstitute.org/projects/automatic-onsite-polishing-of-large-complex-surfaces-by-real-time-planning-and-control/
 youtube: https://youtu.be/DP9TUkI8tQg?si=WSw2SZFnq5oIZczj
-sponsor: "ARM Institute"
 ---
-Conventional weld bead removal is manually performed by human workers, which is time-consuming, expensive, and more importantly, dangerous, especially in a confined environment, such as inside a metal tube.
-This project develops a robotic solution for polishing and grinding complex surfaces in a confined workspace to alleviate the cost and manual effort.
+Weld bead removal is typically done by hand, which is slow, costly, and dangerous in confined spaces such as the inside of a metal tube. We develop a robotic system that polishes and grinds complex surfaces in confined workspaces, reducing cost and manual effort.

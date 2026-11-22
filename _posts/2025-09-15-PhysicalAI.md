@@ -6,5 +6,5 @@ author: "Ruixuan Liu"
 location: "Pittsburgh, PA"
 highlight: false
 highlightimage: /images/PhysicalAI.jpg
-highlightbrief: "Our work on Physical AI is featured on CMU News."
+highlightbrief: "Our work on Physical AI is featured in CMU News."
 ---
