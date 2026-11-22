@@ -78,6 +78,7 @@ strong { font-weight: 600; }
   position: sticky;
   top: 0;
   z-index: 10;
+  background: var(--bg);
   background: color-mix(in srgb, var(--bg) 85%, transparent);
   backdrop-filter: saturate(180%) blur(10px);
   -webkit-backdrop-filter: saturate(180%) blur(10px);
@@ -279,6 +280,7 @@ h2 {
 }
 .pub--featured {
   background: var(--award-soft);
+  border-color: var(--award-soft);
   border-color: color-mix(in srgb, var(--award) 25%, transparent);
 }
 .pub--featured:hover { background: var(--award-soft); }
